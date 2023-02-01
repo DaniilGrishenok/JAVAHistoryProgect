@@ -4,7 +4,7 @@ body{
 	margin: 0 auto;
 padding: 0;
 
-}
+
 
 }
 .container{
@@ -23,15 +23,15 @@ padding: 0;
 }
 #bobik{
 	border:2px solid #555;
-	position: fixed;
+	
   width: 100%;
    height: 140px;
     text-align:center;
       margin:0px;
-       padding:0;
+       padding-top:35px;
        background:#0C5DA5 ;
-       top: 0;
-       position: ;
+       
+      
 
 }
 #Videoblog{
@@ -43,17 +43,31 @@ padding: 0;
     text-align:left;
     margin:30px;
     margin-top: 70px;
-    padding: 10px;
-    padding-top: 5px ;
+    padding: 25px;
+    
+   	border-top-style: white;  
+    background:#0C5DA5 ;
+}
+#Audiogid{
+
+	border:2px solid #555;
+ 	border-radius:50px;
+  	border-width: 60%;
+  	width: 60%;
+
+    text-align:left;
+    margin:30px;
+    margin-top: 70px;
+    padding: 25px;
+    
    	border-top-style: white;  
     background:#0C5DA5 ;
 }
 
 #bobik1{
-	border:2px solid #555;
- 	border-radius:5px;
-  	border-width: 60%;
-  	width: 80%;
+	position: static;
+	
+  	width: 100%;
     text-align:left;
     margin:30px;
     margin-top: 70px;
@@ -90,13 +104,25 @@ padding: 0;
    	border-top-style: white;  
     background:#DDDBD1
 }
+#gallstatic{
+	
+
+
+  	width: 100%;
+    text-align:left;
+    margin:30px;
+    margin-top: 70px;
+    padding: 10px;
+   	border-top-style: white;  
+    background:#DDDBD1 
+}
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
-    top: 145px; /* S left: 100%;tay at the top */
+    top: 0; /* S left: 100%;tay at the top */
     right: 0;
     background-color: #FFFFFF; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -190,7 +216,7 @@ padding: 0;
 /* Footer Center */
 
 .footer-distributed .footer-center{
-  width: 35%;
+  width: 20%;
 }
 
 .footer-distributed .footer-center i{
@@ -248,7 +274,8 @@ padding: 0;
 /* Footer Right */
 
 .footer-distributed .footer-right{
-  width: 20%;
+  width: 30%;
+ 
 }
 
 .footer-distributed .footer-company-about{
@@ -312,3 +339,49 @@ padding: 0;
   }
 
 }
+
+#gall {
+  position: relative;
+  padding-top: 50%;
+  z-index: 10;
+  -moz-user-select: none; user-select: none;
+  
+  
+   margin-bottom: 1;
+}
+#gall img {
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  max-width: 24.5%;
+  max-height: 49.5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: zoom-in;
+  transition: .2s;
+}
+#gall img:nth-child(4n-2) {left: 37.5%;}
+#gall img:nth-child(4n-1) {left: 62.5%;}
+#gall img:nth-child(4n) {left: 87.5%;}
+#gall img:nth-child(n+5) {top: 75%;}
+
+#gall img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+#gall img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  cursor: zoom-out;
+}
+
