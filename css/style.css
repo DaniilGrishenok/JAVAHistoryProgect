@@ -34,6 +34,42 @@ padding: 0;
       
 
 }
+#USA{
+	
+  	width: 100%;
+    text-align:left;
+    margin:35px;
+    margin-top:100px;
+    margin-bottom: 200px;
+    padding: 35px;
+    
+   	border-top-style: white;  
+    
+}
+#install{
+	
+  	width: 100%;
+    text-align:left;
+    margin:30px;
+    margin-top:100px;
+    
+    padding: 35px;
+    
+   	border-top-style: white;  
+    
+}
+#webalbom{
+	
+  	width: 100%;
+    text-align:left;
+    margin-left:0;
+    margin-top:100px;
+    margin-bottom: 100px;
+    padding: 35px;
+    
+   	border-top-style: white;  
+    
+}
 #Videoblog{
 	border:2px solid #555;
  	border-radius:50px;
@@ -42,7 +78,8 @@ padding: 0;
 
     text-align:left;
     margin:30px;
-    margin-top: 70px;
+    margin-top:100px;
+    margin-bottom: 200px;
     padding: 25px;
     
    	border-top-style: white;  
@@ -54,15 +91,16 @@ padding: 0;
  	border-radius:50px;
   	border-width: 60%;
   	width: 60%;
-
     text-align:left;
     margin:30px;
-    margin-top: 70px;
-    padding: 25px;
     
+    padding: 25px;
+    margin-bottom: 150px;
    	border-top-style: white;  
     background:#0C5DA5 ;
 }
+
+
 
 #bobik1{
 	position: static;
@@ -71,6 +109,7 @@ padding: 0;
     text-align:left;
     margin:30px;
     margin-top: 70px;
+    margin-bottom: 100px;
     padding: 10px;
    	border-top-style: white;  
     background:#DDDBD1 ;
@@ -88,7 +127,7 @@ padding: 0;
   width: 80%;
     text-align:left;
       margin:30px;
-      margin-top: 200px;
+      margin-top: 100px;
       padding: 10px;
    border-top-style: white;  
        background:#DDDBD1 ;
@@ -99,7 +138,7 @@ padding: 0;
   	width: 80%;
     text-align:left;
     margin:50px;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 10px;
    	border-top-style: white;  
     background:#DDDBD1
@@ -358,7 +397,7 @@ padding: 0;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: zoom-in;
-  transition: .2s;
+  transition: .3s;
 }
 #gall img:nth-child(4n-2) {left: 37.5%;}
 #gall img:nth-child(4n-1) {left: 62.5%;}
